@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="js-main-nav js-main" id="js-nav">
+    <div class="js-nav-1 js-main">
+      <h2 class="js-logo">Pratiy<span class="js-span-color">ush</span></h2>
+      <!-- Add type="button" to prevent form submission -->
+      <div class="js-ham" type="button" >&#9776;</div>
+    </div>
+    <div class="js-nav-2">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#js-about">ABOUT</a></li>
+        <li><a href="#js-service">SERVICE</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <section>
+
+    <div class="carousel-inner align-items-start">
+      <div class="carousel-item active">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/002/459/937/non_2x/business-man-working-late-night-workload-concept-illustration-free-vector.jpg"
+          class="d-block w-100 mt-2" alt="..." height={500}>
+        <div class="container">
+          <div class="carousel-caption  d-md-block">
+            <h1>Welcome to my Website portfolio</h1>
+            
+            <p class="js-about-font">Hello, my name is Pratiyush, and I am a Frontend Developer. This website portfolio is built by me to represent my skills and expertise. I have learned web development from Ducat Institute, and I believe that I can help you with my skills. To know more, you can download my resume.
+            </p>
+            <button type="button" class="btn btn-outline-warning">
+              <a href="contact.html">Contact</a>
+            </button>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section>
+    <div class="container text-center mt-4">
+      <h2 id="js-about">About</h2>
+      <div class="card mb-3 p-2">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img
+              src="https://thumbs.dreamstime.com/b/software-language-programmer-avatar-software-language-programmer-avatar-vector-illustration-design-110589726.jpg"
+              class="img-fluid rounded" alt="..." style="background: transparent;">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body mt-5">
+              <h5 class="card-title">I believe that I will Provide the best work .</h5>
+              <p class="card-text js-about-font">
+               This website portfolio is built by me to represent my skills and expertise. I have learned web development from Ducat Institute, and I believe that I can help you with my skills. To know more here i have attached my resume which help to know about me , you can download my resume.
+              </p>
+              <button class="btn btn-warning js-dark"><a href="PRATIYUSH RESUME.pdf" target="_blank">Resume</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container text-center mt-4">
+      <h2 id="js-service">My<span class="js-span-color">Skills</span></h2>
+      <p class="lead js-about-font">Lorem ipsum dolor sit amet consectetur</p>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 js-generated-html">
+      </div>
+  </section>
+
+  <section>
+    <div class="container text-center mt-4">
+      <h2 id="js-about">My<span class="js-span-color">Project</span></h2>
+      <div class="card mb-3 p-2">
+        <div class="row g-0">
+          <div class="col-md-7">
+            <div class="card-body mt-5">
+              <h5 class="card-title">E-Commerce Web App using React & Firebase</h5>
+              <p class="card-text js-about-font">
+               In this WebApp i just have build a basic e-commerce-web for Frontend using react and backend using Firebase.
+               In this WebApp I have added basic E-Commerce feature like Login and Logout feature, Dynamic each productDetail page, Add to cart feature with backend , Responsive UI and many more. check this code on my github account.
+              </p>
+              <button class="btn btn-warning js-dark">View Code</button>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="https://5.imimg.com/data5/PP/GX/MQ/SELLER-49640680/e-commerce-development-500x500.jpg"
+              class="img-fluid rounded" alt="..." style="background: transparent;">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="js-footer mt-5">
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-light">© 2023 Company, Inc</span>
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a href="#js-nav"><i class="bi bi-house"></i></a></li>
+            <li class="ms-3"><i class="bi bi-facebook"></i></li>
+            <li class="ms-3"><i class="bi bi-instagram"></i></li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
